@@ -9,14 +9,7 @@ devtools::install_github("HealthInformaticsUT/AdherenceFromOMOP@HEAD", force = T
 # Connect to database
 
 # A DBI database connection to a database where an OMOP CDM v5.4 or v5.3 instance is located.
-con <- DBI::dbConnect(
-  RPostgres::Postgres(),
-  dbname = Sys.getenv("DB_NAME"),
-  host = Sys.getenv("DB_HOST"),
-  user = Sys.getenv("DB_USERNAME"),
-  password = Sys.getenv("DB_PASSWORD"),
-  port = Sys.getenv("DB_PORT")
-)
+con <- DBI::dbConnect(...)
 
 # Parameters to connect to create cdm object
 # The schema where the OMOP CDM tables are located.
