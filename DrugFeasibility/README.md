@@ -12,4 +12,4 @@ This part of the repository contains the code for DrugExposureDiagnostics of the
 4.  Open the codeToRun.R file and fill the necessary parameters for you database. You might need the the right driver package for your database (e.g. RPostgres for PostgreSQL) to connect to the database. The last line of CodeToRun.R will run the diagnostics (source(here::here("runFeasibility.R"))).
 5.  After running there will be a zip file with results (Results\_{Your database name}.zip).
 6.  We have provided also the Shiny app which comes together with [DrugExposureDiagnostics](https://github.com/darwin-eu/DrugExposureDiagnostics)
-    1.  Copy the resulting zip file from results folder to shiny/ResultsExplorer/data folder
+    1.  Copy the resulting zip file from results folder to shiny/data folder

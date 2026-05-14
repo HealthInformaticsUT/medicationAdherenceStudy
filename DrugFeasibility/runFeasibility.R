@@ -30,7 +30,7 @@ write.csv(
 )
 
 # ingredients
-concepts <- read.csv(paste0(getwd(), "/concepts.csv"))[,1]
+concepts <- read.csv(paste0(getwd(), "/concepts.csv"))[,1][1:2]
 
 # Feasibility step  ----
 log4r::info(logger, "QUERY DED PACKAGE")

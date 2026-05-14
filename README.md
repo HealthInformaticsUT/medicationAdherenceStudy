@@ -10,3 +10,4 @@
 ### The repository has following folders:
 
 * [DrugFeasibility](DrugFeasibilty) - Folder contains the code to run the DrugExposureDiagnostics
+* [DrugAdherence](DrugAdherence) - Folder contains the code to run the adherence study
